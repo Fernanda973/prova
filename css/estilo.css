@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "DM Sans", sans-serif;
+}
+header{
+    width: 100%;
+    background-color: #bb84ee;
+    display: flex;
+}
+#logo{
+    width: 20%;
+    background-color: #bb84ee;
+    display: flex;
+    justify-content: center;
+}
+#logo img{
+    border-radius: 5px;
+}
+#banner h1{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px
+}
+#banner{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+}
+ul li{
+    width: 100px;
+    border-radius: 20px;
+    background-color: rgb(180, 67, 224);
+    text-align: center;
+    padding: 10px 0;
+}
+#mcDo{
+    display: flex;
+    justify-content: center;
+}
+#fundoMc{
+    background-color: rgba(220, 20, 60, 0.39);
+    width: 45%;
+}
+#bK{
+    display: flex;
+    justify-content: center;
+}
+#fundoBk{
+    background-color: rgba(220, 167, 20, 0.39);
+    width: 45%;
+}
+main{
+    margin-top: 20px;
+    align-items: center;
+}
