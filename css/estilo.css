@@ -4,12 +4,16 @@
     margin: 0;
 }
 body{
-    font-family: "DM Sans", sans-serif;
+    background: #e2aeee;
+    background: radial-gradient(circle, rgba(226, 174, 238, 0.6) 0%, rgba(148, 233, 230, 0.66) 100%);
 }
+
+/* -------CABEÇALHO -------*/
 header{
     width: 100%;
     background-color: #bb84ee;
     display: flex;
+    font-family: "DM Sans", sans-serif;
 }
 #logo{
     width: 20%;
@@ -43,13 +47,21 @@ ul li{
     text-align: center;
     padding: 10px 0;
 }
+
+
+/* -------PARTE PRINCIPAL------- 
+-----RESTAURANTES-----*/
 #mcDo{
     display: flex;
     justify-content: center;
 }
+h2{
+    text-align: center;
+    font-family: "Protest Riot", sans-serif;
+}
 #fundoMc{
     background-color: rgba(220, 20, 60, 0.39);
-    width: 45%;
+    width: 100%;
 }
 #bK{
     display: flex;
@@ -57,9 +69,48 @@ ul li{
 }
 #fundoBk{
     background-color: rgba(220, 167, 20, 0.39);
-    width: 45%;
+    width: 100%;
+}
+#sub{
+    display: flex;
+    justify-content: center;
+}
+#fundoSub{
+    background-color: rgba(53, 190, 76, 0.39);
+    width: 100%;
+}
+#kfc{
+    display: flex;
+    justify-content: center;
+}
+#fundoKfc{
+    background-color: rgba(190, 147, 53, 0.39);
+    width: 100%;
+}
+#pizHut{
+    display: flex;
+    justify-content: center;
+}
+#fundoHut{
+    background-color: rgba(0, 0, 0, 0.39);
+    width: 100%;
+}
+.margem{
+    margin-top: 20px;
 }
 main{
     margin-top: 20px;
     align-items: center;
+}
+
+/* -------RODAPÉ------- */
+#redesSoc{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    /* flex-direction: column; */
+}
+#cima{
+    display: flex;
+    align-self: flex-end;
 }
