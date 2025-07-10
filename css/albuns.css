@@ -1,13 +1,13 @@
 *{
-    box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
     background-color: #ca0000;
 }
 
-/* -------CABEÇALHO -------*/
+/*-----CABEÇALHO-----*/
 h1{
     color:#ca0000;
 }
@@ -51,33 +51,9 @@ ul li{
     padding: 10px 0;
 }
 
-/* ---PARTE PRINCIPAL--- */
-main{
-    width: 100%;
-    height: 100%;
-}
-#tamanho{
-    height: 100px;
-    font-size: large;
-}
-#espaco{
-    border-top: 20px;
-    width: 1869px;
-    height: 800px;
-}
-#fotos{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-around;
-}
-#texto{
-    font-size: large;
-    display: flex;
-    justify-content: space-around;
-}
-h2{
-    font-family: "Lilita One", sans-serif;
-}
+/*-----PARTE PRINCIPAL-----*/
+
+
 
 /* -------RODAPÉ------- */
 #redesSoc{
