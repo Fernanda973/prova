@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ca0000;
+    background-color: #000;
 }
 
 /*-----CABEÇALHO-----*/
@@ -53,6 +53,22 @@ ul li{
 
 /*-----PARTE PRINCIPAL-----*/
 
+main img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
+main a{
+    display: flex;
+    justify-content: center;
+}
+h2{
+    color: white
+}
+.local{
+    text-align: center;
+    color: white;
+}
 
 
 /* -------RODAPÉ------- */
