@@ -56,19 +56,24 @@ main{
     width: 100%;
     height: 100%;
 }
-#tamanho{
-    height: 100px;
+#tamanho p{
+    width: 100%;
+    height: 30%;
     font-size: large;
 }
-#espaco{
-    border-top: 20px;
-    width: 1869px;
-    height: 800px;
+#espaco img{
+    margin-top: 15px;
+    width: 100%;
+    height: 80%;
 }
 #fotos{
-    margin-top: 10px;
     display: flex;
     justify-content: space-around;
+}
+#fotos img{
+    width: 10%;
+    height: 10%;
+    margin-top: 10px;
 }
 #texto{
     font-size: large;
@@ -84,7 +89,6 @@ h2{
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
-    /* flex-direction: column; */
 }
 #cima{
     display: flex;
