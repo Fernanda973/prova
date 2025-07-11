@@ -81,4 +81,8 @@ h2{
 #cima{
     display: flex;
     align-self: flex-end;
+    color: white;
+}
+p{
+    color: white;
 }
