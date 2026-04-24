@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,49 +10,77 @@
     <!-- ---CSS--- -->
     <link rel="stylesheet" href="css/estilo.css">
 
+    <!-- ---BOOTSTRAP--- -->
+    <link rel="stylesheet" href="./plugins/bootstrap-5.3.7-dist/css/bootstrap.css">
+
     <!-- ---FONTES--- -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Riot&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <header>
-        <div id="logo">
-           <img src="img/logo2.jpg" alt="" width="100px" height="95px">
-        </div>
-        <div id="banner">
-            <h1>---Stray Kids---</h1>
-            <ul>
-                <li>
-                    <a href="pages/membros.html">Membros</a>
-                </li>
-                <li>
-                    <a href="pages/albuns.html">Albuns</a>
-                </li>
-                <li>
-                    <a href="#ajuda">Ajuda</a>
-                </li>
-            </ul>
-        </div>
+    <!-- ARRUMEI O NAVBAR -->
+    <header class="bg-danger">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a href="">
+                    <img src="./img/logoSkz.jpg" alt="Stray Kids" class="navbar-brand skz" width="150">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#home"
+                    aria-controls="home">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="home">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/membros.html">Membros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/albuns.html">Albuns</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ajuda</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main>
         <h2>Um pouco sobre o grupo:</h2>
         <div id="tamanho">
-            <p>Stray Kids é um grupo masculino sul-coreano formado pela JYP Entertainment em 2018. É composto por oito integrantes: Bang Chan, Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin e I.N. O nome do Fandom é STAY que significa "ficar" em inglês, os fãs seriam a motivação e uma das maiores forças para eles se manterem juntos e seguir em frente. O lema deles é "Stray Kids everywhere all around the world" que em português é "Stray Kids em todos os lugares, ao redor do mundo" e, além disso, existe um slogan para os fãs "You Make Stray Kids Stay" que significa "Você faz o Stray Kids ficar". São considerados o maior boy group da 4° geração do K-pop tendo conquistado mais de 100 prêmios.</p>
+            <p>Stray Kids é um grupo masculino sul-coreano formado pela JYP Entertainment em 2018. É composto por oito
+                integrantes: Bang Chan, Lee Know, Changbin, Hyunjin, Han, Felix, Seungmin e I.N. O nome do Fandom é STAY
+                que significa "ficar" em inglês, os fãs seriam a motivação e uma das maiores forças para eles se
+                manterem juntos e seguir em frente. O lema deles é "Stray Kids everywhere all around the world" que em
+                português é "Stray Kids em todos os lugares, ao redor do mundo" e, além disso, existe um slogan para os
+                fãs "You Make Stray Kids Stay" que significa "Você faz o Stray Kids ficar". São considerados o maior boy
+                group da 4° geração do K-pop tendo conquistado mais de 100 prêmios.</p>
         </div>
         <div id="espaco">
             <img src="img/skz.png" alt="">
         </div>
-        
+
         <h2>Top 5 músicas mais conhecidas:</h2>
         <div>
             <div id="fotos">
-                <a href="https://open.spotify.com/intl-pt/track/4XPXrcpyNr30Km6aPiflJy" target="_blank"><img src="img/godsMenu.jpg" alt=""></a>
-                <a href="https://open.spotify.com/intl-pt/track/63irPUP3xB74fHdw1Aw9zR" target="_blank"><img src="img/maniac.jpg" alt=""></a>
-                <a href="https://open.spotify.com/intl-pt/track/0nwTMzpatarzvLvtwwzdCt" target="_blank"><img src="img/thunderous.jpg" alt=""></a>
-                <a href="https://open.spotify.com/intl-pt/track/0XuepwFJUcKN8T5zTqoP0F" target="_blank"><img src="img/backDoor.jpg" alt=""></a>
-                <a href="https://open.spotify.com/intl-pt/track/3gTQwwDNJ42CCLo3Sf4JDd" target="_blank"><img src="img/sClass.jpg" alt=""></a>
+                <a href="https://open.spotify.com/intl-pt/track/4XPXrcpyNr30Km6aPiflJy" target="_blank"><img
+                        src="img/godsMenu.jpg" alt=""></a>
+                <a href="https://open.spotify.com/intl-pt/track/63irPUP3xB74fHdw1Aw9zR" target="_blank"><img
+                        src="img/maniac.jpg" alt=""></a>
+                <a href="https://open.spotify.com/intl-pt/track/0nwTMzpatarzvLvtwwzdCt" target="_blank"><img
+                        src="img/thunderous.jpg" alt=""></a>
+                <a href="https://open.spotify.com/intl-pt/track/0XuepwFJUcKN8T5zTqoP0F" target="_blank"><img
+                        src="img/backDoor.jpg" alt=""></a>
+                <a href="https://open.spotify.com/intl-pt/track/3gTQwwDNJ42CCLo3Sf4JDd" target="_blank"><img
+                        src="img/sClass.jpg" alt=""></a>
             </div>
             <div id="texto">
                 <p>God's Menu</p>
@@ -78,4 +107,5 @@
         <p>&copy;Copyright 2025 - Todos os direitos reservados a Fernanda</p>
     </footer>
 </body>
+
 </html>

@@ -3,53 +3,7 @@
     padding: 0;
     margin: 0;
 }
-body{
-    background-color: #ca0000;
-}
-
 /* -------CABEÇALHO -------*/
-h1{
-    color:#ca0000;
-}
-header{
-    width: 100%;
-    background-color: #000;
-    display: flex;
-}
-#logo{
-    width: 20%;
-    background-color: #000;
-    display: flex;
-    justify-content: center;
-}
-#logo img{
-    border-radius: 5px;
-    margin: 20px;
-}
-#banner h1{
-    width: 100%;
-    text-align: center;
-    margin-top: 10px
-}
-#banner{
-    height: 100px;
-    width: 80%;
-    display: flex;
-    flex-wrap: wrap;
-}
-ul{
-    width: 100%;
-    display: flex;
-    list-style: none;
-    justify-content: space-around;
-}
-ul li{
-    width: 100px;
-    border-radius: 20px;
-    background-color: #ca0000;
-    text-align: center;
-    padding: 10px 0;
-}
 
 /* ---PARTE PRINCIPAL--- */
 main{
