@@ -11,14 +11,12 @@ main{
     height: 100%;
 }
 #tamanho p{
-    width: 100%;
-    height: 30%;
     font-size: large;
 }
 #espaco img{
     margin-top: 15px;
-    width: 100%;
-    height: 80%;
+    width: 80%;
+    height: 60%;
 }
 #fotos{
     display: flex;
